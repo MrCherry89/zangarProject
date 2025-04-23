@@ -642,9 +642,14 @@ line-height: normal;
 color: white;
 max-width: 430px;
 margin-bottom: 30px;
+background: linear-gradient(164deg, rgba(195, 170, 127, 0.90) 
+-18.55%, rgba(37, 10, 1, 0.90) 145.41%);
+padding: 5px;
+border-radius: 8px;
 @media(max-width: 767px){
   font-size: 16px;
   max-width: 300px;
+  
     }
       img{
         margin-right: 10px;
