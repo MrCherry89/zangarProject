@@ -1,0 +1,164 @@
+body,
+html {
+  overflow-x: hidden;
+  font-family: 'Tenor Sans';
+  &.overflow {
+    overflow: hidden !important;
+  }
+}
+
+body {
+  @include flex;
+  @include dir-col;
+  @include justify-between;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Tenor Sans';
+}
+
+input,
+textarea {
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  background: none;
+  &:focus {
+    outline: none;
+    border: none;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.wrapper {
+  max-width: 1030px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main-btn{
+  @include flex;
+  @include align-center;
+  @include justify-center;
+  padding: 10px 30px;
+  border-radius: 25.474px;
+  font-family: 'SFT Schrifted Sans TRIAL';
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: radial-gradient(90.14% 172.7% at 50% -72.7%, #FFF 0%, #492E1E 100%);
+  @media(max-width: 767px){
+   font-size: 20px;
+  }
+img{
+  margin-right: 10px;
+}
+}
+
+.slider-navigation{
+  @include flex;
+  @include justify-between;
+  width: 70px;
+  position: absolute;
+  z-index: 10;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  @media(max-width: 767px){
+   bottom: 10px;
+    }
+  button{
+    width: 30px;
+    height: 30px;
+    @include flex;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #fff;
+    position: static;
+    transform: translate(0, 0);
+    &:before{
+      content: none;
+    }
+    &.slick-next {
+      svg{
+        transform: rotate(180deg);
+      }
+    }
+    svg{
+      margin: auto;
+      transition: .3s;
+      fill: #0A011F;
+    }
+    &:hover{
+      background: #0E1D3A;
+      svg{
+        fill: #fff;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
