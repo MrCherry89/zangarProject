@@ -627,13 +627,18 @@ a:focus {
     grid-template-columns: 1fr;
   }
 }
-.planning-solutions .images img {
+.planning-solutions .images .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.planning-solutions .images .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.3s;
 }
-.planning-solutions .images img:hover {
+.planning-solutions .images .img img:hover {
   transform: scale(1.05);
 }
 
@@ -854,6 +859,9 @@ a:focus {
 
 .yard-wrap {
   margin-top: 30px;
+}
+.yard-wrap .wrapper {
+  max-width: 1400px;
 }
 @media (max-width: 767px) {
   .yard-wrap .wrapper {
