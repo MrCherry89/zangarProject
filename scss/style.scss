@@ -490,6 +490,7 @@ background-clip: text;
       .img{
         @include flex;
         margin-top: auto;
+        width: 100%;
         @media(max-width: 767px){
           min-height: 280px;
           }
@@ -596,7 +597,7 @@ text-transform: uppercase;
       }
       .img{
         @include flex;
-        height: 200px;
+        height: 240px;
         margin-bottom: 10px;
         @media(max-width: 1024px){
           height: 180px;
