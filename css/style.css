@@ -1644,6 +1644,11 @@ a:focus {
   position: relative;
   z-index: 1;
 }
+@media (max-width: 767px) {
+  .banner-wrap .wrapper {
+    position: static;
+  }
+}
 .banner-wrap .wrapper .info {
   margin-top: -100px;
   position: absolute;
@@ -1655,6 +1660,11 @@ a:focus {
 @media (max-width: 1024px) {
   .banner-wrap .wrapper .info {
     margin-top: -140px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-wrap .wrapper .info {
+    position: static;
   }
 }
 .banner-wrap .wrapper .info .title-wrap {
@@ -1742,6 +1752,10 @@ a:focus {
 @media (max-width: 767px) {
   .banner-wrap .wrapper .info .buttons {
     margin: 0px auto;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
   }
 }
 .banner-wrap .wrapper .info .buttons a {
@@ -1820,8 +1834,18 @@ a:focus {
   padding: 20px 0;
   transition: 0.3s;
 }
+@media (max-width: 1024px) {
+  .header {
+    padding: 10px 0;
+  }
+}
 .header.fixed {
   background: #b7a078;
+}
+@media (max-width: 1024px) {
+  .header.fixed {
+    background: #a38e69;
+  }
 }
 .header .wrapper {
   display: -webkit-box;
@@ -1859,7 +1883,7 @@ a:focus {
     background: white;
     padding: 20px 18px;
     width: 100%;
-    height: calc(100vh - 101px);
+    height: calc(100vh - 81px);
     transform: scale(0);
     transition: 0.3s;
   }

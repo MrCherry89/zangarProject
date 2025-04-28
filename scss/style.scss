@@ -1034,6 +1034,9 @@ line-height: 104.905%;
   .wrapper{
     position: relative;
     z-index: 1;
+    @media(max-width: 767px){
+      position: static;
+     }
     .info{
       margin-top: -100px;
       position: absolute;
@@ -1043,6 +1046,9 @@ line-height: 104.905%;
       z-index: 10;
       @media(max-width: 1024px){
        margin-top: -140px;
+       }
+       @media(max-width: 767px){
+        position: static;
        }
       .title-wrap{
         margin: 0 auto 30px;
@@ -1119,6 +1125,10 @@ background-clip: text;
         margin-right: 15px;
         @media(max-width: 767px){
           margin: 0px auto;
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          z-index: 10;
          }
         a{
           width: 100%;
@@ -1193,8 +1203,14 @@ background-clip: text;
   z-index: 1000;
   padding: 20px 0;
   transition: .3s;
+  @media(max-width: 1024px){
+    padding: 10px 0;
+   }
   &.fixed{
     background:  #b7a078;
+    @media(max-width: 1024px){
+      background:  #a38e69;
+     }
   }
   .wrapper{
     @include flex;
@@ -1221,7 +1237,7 @@ background-clip: text;
         background: white;
         padding: 20px 18px;
         width: 100%;
-        height: calc(100vh - 101px);
+        height: calc(100vh - 81px);
         transform: scale(0);
         transition: .3s;
         &.open{
