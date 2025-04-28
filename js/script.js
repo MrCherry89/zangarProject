@@ -78,35 +78,6 @@ $(document).ready(function () {
 
 
 
-  $(".slider-for").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    dots: false,
-    asNavFor: ".slider-nav",
-    speed: 800,
-    focusOnSelect: true,
-    prevArrow: $(".banner-wrap .slider-navigation .slick-prev"),
-    nextArrow: $(".banner-wrap .slider-navigation .slick-next"),
-  });
-  $(".slider-nav").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    asNavFor: ".slider-for",
-    dots: false,
-    speed: 800,
-    variableWidth: true,
-    arrows: false,
-    focusOnSelect: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          autoplay: true,
-        },
-      },
-    ],
-  });
 
   $(".drop-menu").click(function () {
     $(this).toggleClass("is-active");
@@ -133,6 +104,18 @@ $(".popup-gallery").magnificPopup({
   },
 });
 
+$(".popup-gallery2").magnificPopup({
+  delegate: "a",
+  type: "image",
+  tLoading: "Loading image #%curr%...",
+  mainClass: "mfp-img-mobile",
+  gallery: {
+    enabled: true,
+    navigateByImgClick: true,
+    preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+  },
+});
+
 $('.popup').magnificPopup({
   type: 'inline',
   mainClass: 'mfp-fade'
@@ -140,6 +123,29 @@ $('.popup').magnificPopup({
 
 $(".main-menu li a").smoothScroll({
   speed: 1000,
+});
+
+const header = document.querySelector('.header'); // замени на свой селектор
+
+window.addEventListener('scroll', function() {
+  const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+  if (scrollTop > 0) {
+    header.classList.add('fixed');
+  } else {
+    header.classList.remove('fixed');
+  }
+});
+
+$(".gallery-slider2").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  speed: 800,
+  dots: false,
+  variableWidth: true,
+  prevArrow: $(".gallery-slider-wrap2 .slider-navigation .slick-prev"),
+  nextArrow: $(".gallery-slider-wrap2 .slider-navigation .slick-next"),
 });
   AOS.init();
 });
