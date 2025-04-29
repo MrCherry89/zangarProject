@@ -318,7 +318,6 @@ a:focus {
   margin-bottom: 20px;
   color: #FFF;
   text-align: center;
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -336,7 +335,6 @@ a:focus {
   height: 65px;
   width: 100%;
   color: #1F2026;
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -1084,7 +1082,6 @@ a:focus {
 .yard-wrap .top-info .right-info .texts span {
   color: #000;
   text-align: center;
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1165,7 +1162,6 @@ a:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -1499,7 +1495,6 @@ a:focus {
 .time-opportunities .facade-wrap .facade-info .texts .text span {
   text-align: center;
   color: #000;
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1624,7 +1619,6 @@ a:focus {
 .info-block .wrapper .info-item span {
   color: #FFF;
   text-align: center;
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 12px;
   font-style: normal;
   font-weight: 200;
@@ -1722,7 +1716,6 @@ a:focus {
   }
 }
 .banner-wrap .wrapper .info .texts h3 {
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 25px;
   font-style: normal;
   font-weight: 300;
@@ -1735,7 +1728,6 @@ a:focus {
   margin-bottom: 5px;
 }
 .banner-wrap .wrapper .info .texts p {
-  font-family: "SFT Schrifted Sans TRIAL";
   font-size: 10px;
   font-style: normal;
   font-weight: 300;
