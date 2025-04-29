@@ -862,10 +862,15 @@ a:focus {
 }
 .yard-wrap .slider-navigation {
   top: 30px;
-  right: 20px;
+  right: 0px;
   transform: translateX(0);
   bottom: inherit;
   left: inherit;
+}
+@media (max-width: 1400px) {
+  .yard-wrap .slider-navigation {
+    right: 20px;
+  }
 }
 @media (max-width: 767px) {
   .yard-wrap .slider-navigation {

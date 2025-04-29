@@ -438,10 +438,13 @@ background-clip: text;
 
   .slider-navigation{
     top: 30px;
-    right: 20px;
+    right: 0px;
     transform: translateX(0);
     bottom: inherit;
     left: inherit;
+    @media(max-width: 1400px){
+      right: 20px;
+      }
     @media(max-width: 767px){
       display: none;
       }
