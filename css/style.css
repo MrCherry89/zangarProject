@@ -1,7 +1,7 @@
 body,
 html {
   overflow-x: hidden;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat", sans-serif;
 }
 body.overflow,
 html.overflow {
@@ -26,7 +26,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat", sans-serif;
 }
 
 input,
@@ -241,55 +241,6 @@ a:focus {
   transform: translateY(1px) rotate(-45deg);
 }
 
-@font-face {
-  font-family: "SFT Schrifted Sans TRIAL";
-  src: url("../fonts/SFTSchriftedSansTRIAL-Light.woff2") format("woff2"), url("../fonts/SFTSchriftedSansTRIAL-Light.woff") format("woff"), url("../fonts/SFTSchriftedSansTRIAL-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SFT Schrifted Sans TRIAL";
-  src: url("../fonts/SFTSchriftedSansTRIAL-Bold.woff2") format("woff2"), url("../fonts/SFTSchriftedSansTRIAL-Bold.woff") format("woff"), url("../fonts/SFTSchriftedSansTRIAL-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url("../fonts/TenorSans.woff2") format("woff2"), url("../fonts/TenorSans.woff") format("woff"), url("../fonts/TenorSans.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SFT Schrifted Sans TRIAL DemiBd";
-  src: url("../fonts/SFTSchriftedSansTRIAL-DemiBold.woff2") format("woff2"), url("../fonts/SFTSchriftedSansTRIAL-DemiBold.woff") format("woff"), url("../fonts/SFTSchriftedSansTRIAL-DemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SFT Schrifted Sans TRIAL";
-  src: url("../fonts/SFTSchriftedSansTRIAL-Regular.woff2") format("woff2"), url("../fonts/SFTSchriftedSansTRIAL-Regular.woff") format("woff"), url("../fonts/SFTSchriftedSansTRIAL-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SFT Schrifted Sans TRIAL";
-  src: url("../fonts/SFTSchriftedSansTRIAL-Medium.woff2") format("woff2"), url("../fonts/SFTSchriftedSansTRIAL-Medium.woff") format("woff"), url("../fonts/SFTSchriftedSansTRIAL-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "GT America Trial Exp Md";
-  src: url("../fonts/GTAmericaTrial-ExpMd.woff2") format("woff2"), url("../fonts/GTAmericaTrial-ExpMd.woff") format("woff"), url("../fonts/GTAmericaTrial-ExpMd.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
 .tour-3d {
   min-height: 500px;
   display: -webkit-box;
@@ -470,7 +421,7 @@ a:focus {
 }
 .get-consultation .wrapper h2 {
   max-width: 330px;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -515,7 +466,7 @@ a:focus {
 }
 .whats-nearby h2 {
   text-align: center;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 57.429px;
   font-style: normal;
   font-weight: 400;
@@ -595,7 +546,7 @@ a:focus {
 }
 .planning-solutions h2 {
   margin-bottom: 10px;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 57.429px;
   font-style: normal;
   font-weight: 400;
@@ -684,7 +635,7 @@ a:focus {
 }
 .community-club .wrapper .left h2 {
   color: #000;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -758,7 +709,7 @@ a:focus {
   }
 }
 .opens-doors .top h2 {
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 57.429px;
   font-style: normal;
   font-weight: 400;
@@ -801,7 +752,7 @@ a:focus {
 }
 .halls-slider-wrap h3 {
   margin-bottom: 20px;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -903,7 +854,7 @@ a:focus {
 }
 .yard-wrap .bottom-info h4 {
   color: #000;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -952,12 +903,12 @@ a:focus {
 }
 .yard-wrap .bottom-info .images-slider .item .top-style span {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   max-width: 310px;
 }
 @media (max-width: 767px) {
   .yard-wrap .bottom-info .images-slider .item .top-style span {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 .yard-wrap .bottom-info .images-slider .item .img-wrap {
@@ -1118,7 +1069,7 @@ a:focus {
 .yard-wrap .top-info .right-info .texts b {
   display: block;
   color: #000;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -1183,7 +1134,7 @@ a:focus {
 }
 .more-space .info h2 {
   margin-bottom: 30px;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 57.429px;
   font-style: normal;
   font-weight: 400;
@@ -1249,7 +1200,7 @@ a:focus {
 }
 .for-children h2 {
   color: #FFF;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 57.429px;
   font-style: normal;
   font-weight: 400;
@@ -1343,7 +1294,7 @@ a:focus {
 .time-opportunities h2 {
   margin-bottom: 40px;
   color: #000;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -1376,6 +1327,20 @@ a:focus {
     flex-direction: column;
   }
 }
+.time-opportunities .info .images {
+  display: none;
+}
+@media (max-width: 767px) {
+  .time-opportunities .info .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .time-opportunities .info .images img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
 .time-opportunities .info .style {
   position: absolute;
   bottom: -250px;
@@ -1406,9 +1371,7 @@ a:focus {
 }
 @media (max-width: 767px) {
   .time-opportunities .info .small-img {
-    position: static;
-    width: auto;
-    align-self: flex-start;
+    display: none;
   }
 }
 .time-opportunities .info .big-img {
@@ -1521,7 +1484,7 @@ a:focus {
 }
 .time-opportunities .facade-wrap .facade-info .texts .text b {
   color: #000;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -1718,7 +1681,7 @@ a:focus {
 }
 .banner-wrap .wrapper .info .title-wrap h1 {
   text-align: center;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 57.429px;
   font-style: normal;
   font-weight: 400;
@@ -1951,7 +1914,7 @@ a:focus {
 }
 .header .wrapper .menu-wrap .main-menu li a {
   color: #FFF;
-  font-family: "Tenor Sans";
+  font-family: "Montserrat";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;

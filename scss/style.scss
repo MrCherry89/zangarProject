@@ -1,6 +1,6 @@
 @import "mixins";
 @import "global";
-@import "fonts";
+
 
 .tour-3d{
   min-height: 500px;
@@ -121,7 +121,7 @@
     }
     h2{
       max-width: 330px;
-      font-family: "Tenor Sans";
+      font-family: "Montserrat";
       font-size: 30px;
       font-style: normal;
       font-weight: 400;
@@ -163,7 +163,7 @@
   margin-top: 30px;
   h2{
     text-align: center;
-    font-family: "Tenor Sans";
+    font-family: "Montserrat";
     font-size: 57.429px;
     font-style: normal;
     font-weight: 400;
@@ -222,7 +222,7 @@
    }
   h2{
     margin-bottom: 10px;
-    font-family: "Tenor Sans";
+    font-family: "Montserrat";
 font-size: 57.429px;
 font-style: normal;
 font-weight: 400;
@@ -284,7 +284,7 @@ background-clip: text;
         }
       h2{
         color: #000;
-        font-family: "Tenor Sans";
+        font-family: "Montserrat";
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -338,7 +338,7 @@ background-clip: text;
       @include dir-col;
       }
     h2{
-      font-family: "Tenor Sans";
+      font-family: "Montserrat";
       font-size: 57.429px;
       font-style: normal;
       font-weight: 400;
@@ -378,7 +378,7 @@ background-clip: text;
   z-index: 0;
   h3{
     margin-bottom: 20px;
-    font-family: "Tenor Sans";
+    font-family: "Montserrat";
 font-size: 35px;
 font-style: normal;
 font-weight: 400;
@@ -470,7 +470,7 @@ background-clip: text;
         }
     h4{
       color: #000;
-      font-family: "Tenor Sans";
+      font-family: "Montserrat";
       font-size: 20px;
       font-style: normal;
       font-weight: 400;
@@ -507,10 +507,10 @@ background-clip: text;
           }
           span{
             color: white;
-            font-size: 15px;
+            font-size: 14px;
             max-width: 310px;
             @media(max-width: 767px){
-              font-size: 14px;
+              font-size: 13px;
               }
           }
         }
@@ -632,7 +632,7 @@ background-clip: text;
         b{
           display: block;
           color: #000;
-font-family: "Tenor Sans";
+font-family: "Montserrat";
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
@@ -689,7 +689,7 @@ text-transform: uppercase;
             }
     h2{
       margin-bottom: 30px;
-      font-family: "Tenor Sans";
+      font-family: "Montserrat";
       font-size: 57.429px;
       font-style: normal;
       font-weight: 400;
@@ -747,7 +747,7 @@ border-radius: 8px;
   -18.55%, rgba(37, 10, 1, 0.90) 145.41%);
   h2{
     color: #FFF;
-    font-family: "Tenor Sans";
+    font-family: "Montserrat";
     font-size: 57.429px;
     font-style: normal;
     font-weight: 400;
@@ -818,7 +818,7 @@ border-radius: 8px;
   h2{
     margin-bottom: 40px;
     color: #000;
-font-family: "Tenor Sans";
+font-family: "Montserrat";
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
@@ -838,6 +838,18 @@ text-transform: uppercase;
     z-index: 0;
     @media(max-width: 767px){
       @include dir-col;
+    }
+    .images{
+      display: none;
+      @media(max-width: 767px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        img{
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
     }
     .style{
       position: absolute;
@@ -861,9 +873,7 @@ text-transform: uppercase;
         left: 0;
       }
       @media(max-width: 767px){
-       position: static;
-       width: auto;
-       align-self: flex-start;
+       display: none;
       }
     }
     .big-img{
@@ -939,7 +949,7 @@ text-transform: uppercase;
           }
           b{
             color: #000;
-font-family: "Tenor Sans";
+font-family: "Montserrat";
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
@@ -1101,7 +1111,7 @@ line-height: 104.905%;
         }
         h1{
           text-align: center;
-          font-family: "Tenor Sans";
+          font-family: "Montserrat";
           font-size: 57.429px;
           font-style: normal;
           font-weight: 400;
@@ -1296,7 +1306,7 @@ background-clip: text;
            }
           a{
             color: #FFF;
-            font-family: "Tenor Sans";
+            font-family: "Montserrat";
             font-size: 12px;
             font-style: normal;
             font-weight: 400;
