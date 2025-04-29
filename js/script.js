@@ -36,6 +36,26 @@ $(document).ready(function () {
     nextArrow: $(".gallery-slider-wrap .slider-navigation .slick-next"),
   });
 
+  $(".images-slider").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    speed: 800,
+    dots: false,
+    variableWidth: true,
+    prevArrow: $(".yard-wrap .slider-navigation .slick-prev"),
+    nextArrow: $(".yard-wrap .slider-navigation .slick-next"),
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          autoplay: true,
+        }
+      },
+    ]
+  });
+
   $('.your-popup-trigger').magnificPopup({
     type: 'inline',
     midClick: true,
