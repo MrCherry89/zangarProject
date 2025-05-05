@@ -438,6 +438,12 @@ a:focus {
 .get-consultation .wrapper .main-btn {
   font-size: 20px;
 }
+@media (max-width: 767px) {
+  .get-consultation .wrapper .main-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
 
 @media (max-width: 1024px) {
   .map-wrap .wrapper {
