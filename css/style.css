@@ -51,7 +51,7 @@ input[type=number] {
 button {
   cursor: pointer;
   border: none;
-  transition: 0.3s;
+  transition: 0.2s;
   background: none;
 }
 button:focus {
