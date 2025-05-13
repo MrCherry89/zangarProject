@@ -36,6 +36,17 @@ $(document).ready(function () {
     nextArrow: $(".gallery-slider-wrap .slider-navigation .slick-next"),
   });
 
+  // $(".gallery-slider2").slick({
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   arrows: true,
+  //   speed: 800,
+  //   fade: true,
+  //   dots: false,
+  //   prevArrow: $(".gallery-slider-wrap2 .slider-navigation .slick-prev"),
+  //   nextArrow: $(".gallery-slider-wrap2 .slider-navigation .slick-next"),
+  // });
+
   $(".images-slider").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -73,11 +84,39 @@ $(document).ready(function () {
               speed: 800,
               fade: true,
               dots: false,
-              prevArrow: $('#popup-slider .slider-navigation .slick-prev'),
-              nextArrow: $('#popup-slider .slider-navigation .slick-next'),
+              prevArrow: $('.gallery-slider-wrap .slider-navigation .slick-prev'),
+              nextArrow: $('.gallery-slider-wrap .slider-navigation .slick-next'),
             });
           } else {
             $slider.slick('setPosition'); // на всякий случай перерисовка
+          }
+        }, 50);
+      }
+    }
+  });
+
+  $('.your-popup-trigger2').magnificPopup({
+    type: 'inline',
+    midClick: true,
+    callbacks: {
+      open: function () {
+        // Инициализация слайдера с проверкой и задержкой (DOM успевает отрисоваться)
+        setTimeout(function () {
+          const $slider2 = $('#popup-slider3 .gallery-slider3');
+  
+          if (!$slider2.hasClass('slick-initialized')) {
+            $slider2.slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: true,
+              speed: 800,
+              fade: true,
+              dots: false,
+              prevArrow: $('.gallery-slider-wrap3 .slider-navigation .slick-prev'),
+              nextArrow: $('.gallery-slider-wrap3 .slider-navigation .slick-next'),
+            });
+          } else {
+            $slider2.slick('setPosition'); // на всякий случай перерисовка
           }
         }, 50);
       }
